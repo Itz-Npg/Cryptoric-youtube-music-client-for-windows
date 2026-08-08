@@ -6,13 +6,17 @@
 
 A premium, ultra-lightweight, and lightning-fast YouTube Music desktop client for Windows, engineered from the ground up using **Tauri** and **Rust**.
 
+<p align="center">
+  <img src="screenshots/image.png" width="48%">
+  <img src="screenshots/2.png" width="48%">
+</p>
+
 ## ✨ Features
 
 - **🎨 Custom Glowing UI Themes**: A beautiful, translucent gradient interface. Use the built-in color picker (bottom right corner) to instantly change the entire app's accent color to match your vibe.
 - **🚀 Ultra-Lightweight & Blazing Fast**: Built on Tauri v2. Consumes significantly less memory and CPU compared to standard Electron-based clients.
 - **🎮 Discord Rich Presence**: Automatically shares what you're currently listening to directly on your Discord profile (Song Name, Artist, Duration, and Play/Pause status).
 - **🪟 Sleek Borderless Design**: Custom native titlebar with fluid minimize/maximize/close controls perfectly integrated into the UI.
-- **🔒 Highly Secured & Obfuscated**: The core application logic is aggressively optimized and encrypted at compile time (Link-Time Optimization, XOR Obfuscation) making it virtually immune to basic reverse-engineering and cracking.
 
 ## 📥 Installation
 
@@ -30,23 +34,6 @@ A premium, ultra-lightweight, and lightning-fast YouTube Music desktop client fo
 > **To safely bypass this:**  
 > 1. Click **"More info"** on the blue popup.  
 > 2. Click **"Run anyway"**.
-
-## 🛠️ Build from Source
-
-If you want to build the application yourself, make sure you have [Node.js](https://nodejs.org/), [Rust](https://rustup.rs/), and the [Tauri Prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites) installed on your system.
-
-```bash
-# Clone the repository
-git clone https://github.com/Itz-Npg/Cryptoric-youtube-music-client-for-windows.git
-cd Cryptoric-youtube-music-client-for-windows
-
-# Install dependencies
-npm install
-
-# Build the release executable and installer
-npm run tauri build
-```
-Once the build is complete, you will find the generated standalone executable and installer inside the `src-tauri/target/release/bundle/` directory!
 
 ## 📜 Credits
 
